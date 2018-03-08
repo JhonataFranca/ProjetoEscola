@@ -17,11 +17,11 @@ private String nome,rg,cpf;
 private int idade;
 private Date dataNascimanto;
 
- public Pessoa(String nome, String rg, String cpf, int idade, Date dataNascimanto) {
+ public Pessoa(String nome, String rg, String cpf, Date dataNascimanto) {
         this.nome = nome;
         this.rg = rg;
         this.cpf = cpf;
-        this.idade = idade;
+        this.idade = this.calculaIdade(dataNascimanto);
         this.dataNascimanto = dataNascimanto;
     }
  

@@ -11,19 +11,15 @@ import java.util.Date;
  *
  * @author bianca.149817
  */
-public class Disciplina extends Pessoa{
+public class Disciplina{
    private String Nome,departamento;
    private char status;
 
-    public Disciplina(String Nome, String departamento, char status, String nome, String rg, String cpf, int idade, Date dataNascimanto) {
-        super(nome, rg, cpf, idade, dataNascimanto);
+    public Disciplina(String Nome, String departamento, char status) {
         this.Nome = Nome;
         this.departamento = departamento;
         this.status = status;
-    }
-
-    
-   
+    }  
    
     @Override
     public String toString() {
