@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.bianca.Escola;
+package br.com.jhonata.Escola;
 
 import java.util.Date;
 
 /**
  *
- * @author bianca.149817
+ * @author SATC
  */
 public class Disciplina{
    private String Nome,departamento;
@@ -23,7 +23,9 @@ public class Disciplina{
    
     @Override
     public String toString() {
-        return "Disciplina{" + "nome=" + Nome + ", departamento=" + departamento + ", status=" + status + '}';
+        return "Disciplina{" + "nome = " + Nome +
+                "\n departamento = " + departamento + 
+                "\n status = " + status + '}';
     }
 
     public String getNome() {
